@@ -6,6 +6,11 @@ const routers = [
     exact: true,
     component: lazy(() => import('./pages/home')),
   },
+  {
+    path: '/test',
+    exact: true,
+    component: lazy(() => import('./pages/test')),
+  },
 ];
 
 export default routers;

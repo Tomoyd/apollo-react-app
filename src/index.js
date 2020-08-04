@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
 import App from './App';
+import ErrorBoundary from './ErrorBourdary';
 import './index.css';
+import store from './store';
 // const client = new ApolloClient({
 //   uri: 'https://48p1r2roz4.sse.codesandbox.io',
 //   cache: new InMemoryCache(),
@@ -21,7 +24,11 @@ import './index.css';
 ReactDOM.render(
   <React.StrictMode>
     {/* <ApolloProvider client={client}> */}
-    <App />
+    <ErrorBoundary>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </ErrorBoundary>
     {/* </ApolloProvider> */}
   </React.StrictMode>,
   document.getElementById('root')
