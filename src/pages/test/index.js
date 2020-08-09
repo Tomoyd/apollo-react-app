@@ -1,12 +1,12 @@
 import React from 'react';
-import useRedux from '../../store/useRedux';
+import useReduxData from '../../hooks/useRedux';
 
 const Index = () => {
-  const [value, setRedux] = useRedux('test');
+  const [value, setReduxData] = useReduxData('test');
   const setData = (val) => {
-    console.log(value);
-    setRedux(val);
+    setReduxData(val);
   };
+
   return (
     <div
       onClick={() => {

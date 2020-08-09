@@ -3,7 +3,7 @@ import { createStore } from 'redux';
 const reducer = (state, action) => {
   return {
     ...state,
-    ...action,
+    [action['type']]: action.value,
   };
 };
 
