@@ -1,0 +1,49 @@
+.container {
+  color: #ff0000;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  padding: 15px 20px;
+  font-size: 16px;
+  color: #999999;
+  background-color: #eeeeee;
+  display: inline-block;
+  width: 120px !important;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+.container > div {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.days > span {
+  margin-right: 10px;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 600;
+  columns: #212121;
+}
+.vBar {
+  position: absolute;
+  width: 5px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #638ee0;
+}
+
+.MonMonRadio > span {
+  color: #67b504;
+}
+.MonMonRadio.isUp > span {
+  color: #ea7427;
+}
+
+.icon-tubiao {
+  color: #8293d8;
+  margin-left: 10px;
+}

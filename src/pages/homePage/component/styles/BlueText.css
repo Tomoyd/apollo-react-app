@@ -1,0 +1,9 @@
+.text {
+  text-align: left;
+  font: Black 20px/27px Avenir;
+  letter-spacing: 0px;
+  color: #2880f9;
+  margin-top: 14px;
+  display: inline-block;
+  font-weight: bold;
+}
