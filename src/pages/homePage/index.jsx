@@ -1,5 +1,5 @@
 import Axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import BottomPanel from './component/BottomPanel';
 import MiddlePanel from './component/MiddlePanel';
 import TopPanel from './component/TopPanel';

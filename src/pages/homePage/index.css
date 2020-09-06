@@ -1,11 +1,14 @@
 .homeContainer {
   background-color: #e8e8e8;
-  font-family: Avenir, Black;
+
+  /* font-family: Avenir; */
 }
+
 .topContainer {
   background-color: #e8e8e8;
   padding: 35px 100px 35px 120px;
-  font-family: Avenir, Black;
+
+  /* font-family: Avenir,; */
 }
 
 .betweenContainer {
@@ -18,10 +21,11 @@
   border: 3px solid #2880fb;
   box-sizing: border-box;
   text-align: center;
-  font: Heavy 23px/31px Avenir;
+
+  /* font: Heavy 23px/31px Avenir; */
   font-size: 23px;
   font-weight: bold;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #2880f9;
   padding: 15px 48px 15px;
   align-self: center;
@@ -41,24 +45,27 @@
   margin-top: 14px;
   text-align: left;
   font-size: 20px;
-  font-family: Avenir, Black;
-  letter-spacing: 0px;
+
+  /* font-family: Avenir; */
+  letter-spacing: 0;
   font-weight: bold;
   color: #2880f9;
 }
+
 .blueAnchor > span {
   margin-left: 64px;
 }
+
 .blueAnchor > span:first-child {
   margin-left: 0;
 }
 
 .TopLeftImg {
   flex: 1;
-
   margin-top: 130px;
   box-sizing: border-box;
 }
+
 .TopLeftImg > img {
   padding-left: 81px;
   width: 858px;
@@ -69,22 +76,22 @@
 .topDesc {
   margin-top: 14px;
   text-align: left;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   font-size: 20px;
   color: #707070;
 }
 
 .inputContainer {
-  background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #00000029;
+  background: #fff 0% 0% no-repeat padding-box;
+  box-shadow: 0 3px 6px #00000029;
   border-radius: 3px;
   display: flex;
   align-items: center;
   padding: 0 17px 0 14px;
   height: 86px;
-
   margin-top: 48px;
 }
+
 .inputContainer > div:last-child {
   margin-left: auto;
 }
@@ -93,6 +100,7 @@
   width: 110px;
   height: 66px;
 }
+
 .inputContainer > div:first-child > img {
   width: 36px;
   height: 29px;
@@ -103,17 +111,18 @@
   margin-right: 72px;
   flex: 1;
 }
+
 input {
   width: 100%;
   outline-style: none;
   margin: 0;
   -webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
-  color: #666666;
+  color: #666;
   letter-spacing: 0;
   word-spacing: normal;
   text-transform: none;
-  text-indent: 0px;
+  text-indent: 0;
   text-shadow: none;
   display: inline-block;
   text-align: start;
@@ -121,7 +130,8 @@ input {
   background-color: transparent;
   -webkit-rtl-ordering: logical;
   cursor: text;
-  margin: 0em;
+
+  /* margin: 0; */
   padding: 1px 2px;
   border-width: 0;
   border: none;
@@ -137,26 +147,27 @@ input {
   margin-left: 15px;
 }
 
-::-moz-placeholder {
+input::-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  font-family: Avenir;
+
+  /* font-family: Avenir; */
   font-size: 25px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #4d4d4d;
   font-weight: bold;
 }
+
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  font-family: Avenir;
   font-size: 25px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #4d4d4d;
   font-weight: bold;
 }
+
 input::-webkit-input-placeholder {
-  font-family: Avenir;
   font-size: 25px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #4d4d4d;
   font-weight: bold;
   text-overflow: ellipsis;
@@ -165,17 +176,20 @@ input::-webkit-input-placeholder {
 .middlePanel {
   background-color: #2880f9;
   padding: 88px 120px;
-  color: #ffffff;
+  color: #fff;
   font-size: 20px;
   font-weight: bold;
 }
+
 .middleImg {
   flex: 1;
   box-sizing: border-box;
 
   /* padding-right: 218px; */
+
   /* width: 50%; */
   padding-right: 218px;
+
   /* text-align: center; */
 }
 
@@ -188,6 +202,7 @@ input::-webkit-input-placeholder {
 
 .midMainInfo {
   flex: 1;
+
   /* flex-basis: cont; */
 }
 
@@ -195,7 +210,6 @@ input::-webkit-input-placeholder {
   margin-top: 64px;
   width: 324px;
   text-align: center;
-  margin: 64px auto auto;
   padding: 15px 0;
   background-color: #28cc8b;
   border: 3px solid #2880fb;
@@ -206,15 +220,18 @@ input::-webkit-input-placeholder {
   background: #2880f9 0% 0% no-repeat padding-box;
   padding: 66px 120px 36px;
   position: relative;
-  font: Black 25px/34px Avenir;
+  font: 25px/34px;
+
+  /* font-; */
   font-size: 25px;
-  letter-spacing: 0px;
-  color: #ffffff;
+  letter-spacing: 0;
+  color: #fff;
 }
 
 .bottomPanel > img {
   position: absolute;
   bottom: 20px;
+
   /* width: 223px;
   height: 293px; */
 }
@@ -223,6 +240,7 @@ input::-webkit-input-placeholder {
   left: 120px;
   width: 223px;
 }
+
 .bottomPanel > img:last-child {
   right: 120px;
   width: 213px;
@@ -238,10 +256,10 @@ input::-webkit-input-placeholder {
 
 .copyRight {
   text-align: left;
-  font: Medium 15px/20px Avenir;
-  letter-spacing: 0px;
+  font: medium 15px/20px;
+  letter-spacing: 0;
   font-size: 15px;
-  color: #ffffff;
+  color: #fff;
   margin-top: 12px;
   font-weight: lighter;
   opacity: 0.8;
@@ -258,7 +276,6 @@ input::-webkit-input-placeholder {
 a {
   text-decoration-style: none;
   color: unset;
-  text-decoration: none;
 }
 
 .button:hover {
@@ -270,15 +287,19 @@ a {
   display: inline-block;
   align-items: center;
 }
+
 .bottomIcons > img:nth-child(n + 2) {
   margin-left: 56px;
 }
 
 .bottomIcons > img:first-child {
   width: 21px;
+
   /* height: 39; */
 }
+
 .bottomIcons > img:nth-child(n + 3) {
   width: 40px;
+
   /* height: 39; */
 }

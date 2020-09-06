@@ -1,0 +1,16 @@
+.section {
+  --gap: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  resize: both;
+  padding: 20px;
+  border: 1px solid hotpink;
+}
+.tag {
+  color: white;
+  background: deeppink;
+  padding: 0.5ch 1ch;
+  border-radius: 1ch;
+  font-weight: book;
+}
