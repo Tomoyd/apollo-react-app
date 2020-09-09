@@ -19,9 +19,9 @@ const Index = () => {
           setReduxData('hello home 我在首页改变了');
         }}
       >
-        点击我改变 {value}{' '}
-      </button>{' '}
-      <Link to="/test"> Test </Link>{' '}
+        点击我改变 {value}
+      </button>
+      <Link to="/test"> Test </Link>
     </div>
   );
 };
